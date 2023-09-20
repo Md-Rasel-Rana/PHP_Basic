@@ -1,16 +1,50 @@
 <?php
-//// EVEN NUMBER OUTPUT
-function myfunction($n){
 
-    $i=0;
-    while($i <= $n){
-        if($i % 2 == 0){
-            echo $i." - Even,  ";
+//Task 1: Looping with Increment using a Function
+// using  for loop
+function myfunction($T){
+    for($r=0; $r<$T; $r++){
+        if($r%2==0){
+            echo "even number = $r";
         }
-        $i++;
+        echo "<br>";
     }
 }
 myfunction(20);
+
+//// using  do while loop
+function myfunction2($d){
+    $x = 1;
+
+    do {
+        if($x%2==0){
+        echo "even number = $x";
+        }
+       $x++;
+       echo "<br>";
+
+    } while ($x<$d);
+  
+}
+myfunction2(20);
+
+
+//// using while loop
+function myfunction1($n){
+    $i=0;
+while($i <= $n){
+    if($i % 2 == 0){
+        echo $i." - Even,  ";
+    }
+    $i++;
+}
+
+}
+
+
+
+
+
 
 ///Task 2: Skip Multiples of 5
 for($x=0; $x<50; $x++){
