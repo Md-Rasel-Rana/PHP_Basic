@@ -217,11 +217,190 @@ $a=array("Volvo"=>"XC90","BMW"=>"X5","Toyota"=>"Highlander");
 // print_r(join($join));
 
 //PHP join() Function
-$arr = array('Hello','World!','Beautiful','Day!');
-$join= join(", ", $arr);
- print_r($join);
+// $arr = array('Hello','World!','Beautiful','Day!');
+// $join= join(", ", $arr);
+//  print_r($join);
 
- 
+  // $agearr = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+  // echo serialize($agearr);
+  // $student=array(
+  //   "firstname"=>"Rasel",
+  //   "lastname"=>"Rana",
+  //   "age"=>27,
+  //   "section"=>"B"
+  // );
+  // echo $student["firstname"]." ".$student["lastname"];
+  //  $serials=serialize($student);
+  // $unserials = unserialize($serials);
+  //  print_r($unserials);
+
+   ///PHP array_unique() Function
+
+
+  //  $arr = array("a"=>"red","b"=>"green","c"=>"red");
+  //  print_r(array_unique($arr));
+
+  // $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+  //   unset($age["Peter"]);
+  //  print_r($age);
+   
+
+
+   /////Sort Array in Ascending Order - sort()
+  //  $cars = array("Volvo", "BMW", "Toyota");
+  //  sort($cars);
+  //  print_r($cars);
+
+
+   /// Sort Array (Ascending Order), According to Value - asort()
+
+
+   ////Sort Array in Descending Order - rsort()
+  //  $cars = array("Volvo", "BMW", "Toyota");
+  //  rsort($cars);
+  //  print_r($cars);
+
+  /////Sort Array (Ascending Order), According to Key - ksort()
+   
+
+  // $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+  // ksort($age);
+  // print_r($age);
+  // var_dump($age);
+  // var_export($age);
+//   $age="hello world";
+
+//  $age1= is_string($age);
+//   echo $age1;
+
+// $age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
+// print_r(array_change_key_case($age,CASE_UPPER));
+
+// $cars=array("Volvo","BMW","Toyota","Honda","Mercedes","Opel");
+// print_r(array_chunk($cars,2,true));
+
+// $agearr=array("Peter"=>"35","Ben"=>"37","Joe"=>"43","Harry"=>"50");
+// print_r(array_chunk($agearr,2,true));
+
+// An array that represents a possible record set returned from a database
+// $a = array(
+//   array(
+//     'id' => 5698,
+//     'first_name' => 'Peter',
+//     'last_name' => 'Griffin',
+//   ),
+//   array(
+//     'id' => 4767,
+//     'first_name' => 'Ben',
+//     'last_name' => 'Smith',
+//   ),
+//   array(
+//     'id' => 3809,
+//     'first_name' => 'Joe',
+//     'last_name' => 'Doe',
+//   )
+// );
+
+// $last_names = array_column($a,'last_name','id');
+// print_r($last_names);
+
+
+// $myarr=array("volvo","bmw","Daraz","sedan","ford");
+// $myarr2=array("43","56","78","90","model");
+// $c = array_combine($myarr,$myarr2);
+//  print_r($c);
+// $myarr=array("volvo","bmw","Daraz","sedan","ford","tana");
+// $myarr2 =array_fill(0,10, "myname");
+// print_r($myarr2);
+// echo sizeof($myarr);
+
+
+// $agearr=array("Peter"=>"35","Ben"=>"37","Joe"=>"43","Harry"=>"50");
+//   function myfunction($key,$value){
+//       echo "the $key  and value is $value ";
+//   }
+//   array_walk($agearr,"Myfunction");
+//   echo sizeof($agearr);
+
+
+  // $my_array = array("Dog","Cat","Horse");
+  // $russain=$my_array[0];
+  // $russaincat=$my_array[1];
+  // $russainhorse=$my_array[2];
+  // echo $russainhorse;
+
+
+      /////PHP extract() Function
+//   $a = "Original";
+// $my_array = array("a" => "Cat","b" => "Dog", "c" => "Horse");
+// extract($my_array);
+// echo "\$a = $a; \$b = $b; \$c = $c";
+  
+
+  // $my = list($a, $b, $c) = $my_array;
+  // print_r($b);
+
+
+  // foreach(range(0,100,3) as $evennumber){
+  //       echo $evennumber.PHP_EOL;
+  // }
+
+  // echo(mt_rand() .PHP_EOL);
+  // echo(mt_rand() .PHP_EOL);
+  // echo(mt_rand(10,100));
+
+  // $numbers = range(0,20);
+  // $random = mt_rand(0,32);
+
+  // $luck = $numbers[$random];
+  // if($luck%2==0){
+  //   echo "head";
+  // }else{
+  //  echo "tail";
+  // }
+
+  // shuffle($numbers);
+  // print_r($numbers);
+
+  // $numbers = range(1, 20);
+  // shuffle($numbers);
+  // foreach ($numbers as $number) {
+  //     echo "$number ";
+  // }
+
+//  $my_array1 = array("a" => "Cat","b" => "Dog", "c" => "Horse");
+// // shuffle($my_array1);
+// // shuffle($my_array);
+// // print_r($my_array);
+// $my_array2 =array_rand($my_array1);
+// print_r($my_array2[$value]);
+echo substr("my name is rasel rana",2);
+
+$people = array("Peter", "Joe", "Glenn", "Cleveland");
+
+if (in_array("Joe", $people))
+  {
+  echo "Match found";
+  }
+else
+  {
+  echo "Match not found";
+  }
+
+
+
+
+
+
+
+
+   
+   
+
+
+
+
+
 
 
 
