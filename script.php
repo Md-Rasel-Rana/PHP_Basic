@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
 
 // $string = "PHP & Framework Course From Ostad";
 // $search = "Framework";
@@ -266,4 +266,4 @@ echo $decrypted;
 echo $encrypted;
 
 $decrypted = openssl_decrypt($encrypted, "DES-EDE3", "password");
-echo $decrypted;
+echo $decrypted; -->
