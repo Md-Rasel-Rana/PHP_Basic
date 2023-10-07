@@ -1,29 +1,15 @@
-<?php
-// class Motorcycle{
+<?php 
+$data = [
+    'name' => 'John',
+    'age' => 30,
+    'email' => 'john@example.com',
+];
 
-//     private $displacement,$capacity,$mileage;
+extract($data);
 
-//     function __construct($displacement,$capacity,$mileage){
-//         $this->displacement=$displacement;
-//         $this->capacity= $capacity;
-//         $this->mileage=$mileage;
-//     }
+echo $name."\n";  // Output: John
+echo $age."\n";   // Output: 30
+echo $email."\n"; // Output: john@example.com
+echo "my name is $name and my age is $age and my email is $email";
 
-//     function getDisplacement(){
-//         return $this->displacement;
-//     }
-//     function setDisplacement($displacement){
-//         $this->displacement = $displacement;
-//     }
-//     function __get($name)
-//     {
-//        echo  $this->$name;
-//     }
 
-// }
-// $pulser= new Motorcycle("150cc","16ltr","60kmph");
-// echo $pulser->getDisplacement();
-// echo $pulser->setDisplacement("180cc");
-// echo $pulser->displacement;
-// echo $pulser->mileage;
-// echo $pulser->capacity;
